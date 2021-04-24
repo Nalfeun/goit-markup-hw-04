@@ -371,12 +371,18 @@ a.tel:focus {
   display: inline-flex;
   margin-top: 50px;
 }
-.clients-svg {
-  width: 170px;
+
+/* .clients-svg {
+   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
-  border-radius: 4px;
-  padding: 16px 32px;
+  border-radius: 4px; 
+  padding: 16px 32px; 
+} */
+
+.clients-item {
+  width: 170px;
+  height: 92px;
 }
 
 .clients-item:not(:last-child) {
@@ -390,10 +396,12 @@ a.tel:focus {
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
-.clients-link:hover .clients-svg,
-.clients-link:focus .clients-svg {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
