@@ -376,6 +376,7 @@ a.tel:focus {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .clients-item:not(:last-child) {
@@ -414,8 +415,6 @@ a.tel:focus {
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: var(--background-hero-color);
 }
 
@@ -597,10 +596,6 @@ a.connection {
 }
 
 .progect-title {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding: 0px 24px;
-
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -609,11 +604,6 @@ a.connection {
 }
 
 .progect-text {
-  margin-top: 4px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
