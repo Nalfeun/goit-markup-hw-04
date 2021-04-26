@@ -168,7 +168,6 @@ a.tel:focus {
   margin-right: auto;
 
   max-width: 1600px;
-  height: 600px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -323,7 +322,7 @@ a.tel:focus {
 }
 
 .team-proff {
-  padding-bottom: 30px;
+  margin-bottom: 28px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -404,8 +403,6 @@ a.tel:focus {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   display: flex;
   align-items: baseline;
 }
@@ -416,6 +413,8 @@ a.tel:focus {
 
 .footer {
   background-color: var(--background-hero-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer a:hover,
@@ -523,6 +522,8 @@ a.connection {
   outline: none;
   background-color: var(--accent-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .activ-page {
@@ -544,12 +545,6 @@ a.connection {
 
 .filter-list .items {
   margin-right: 8px;
-}
-
-.filter-list .items:focus,
-.filter-list .items:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-list .items:nth-last-child(-n + 1) {
@@ -577,8 +572,12 @@ a.connection {
   box-sizing: border-box;
 }
 
-.items-project:hover,
-.items-project:focus {
+.link-project {
+  display: block;
+}
+
+.link-project:hover,
+.link-project:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -601,6 +600,7 @@ a.connection {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .progect-text {
